@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply bg-contaColor border-b-2 border-cardColor text-cardColor hover:bg-cardColor hover:text-contaColor transition-colors ease-out duration-300 max-h-80 max-w-xs rounded overflow-hidden hover:shadow-xl p-3 relative;
+}
+
+.badge {
+  @apply bg-contaColor text-cardColor text-xs font-semibold rounded-full p-1 absolute top-2 ml-2 mt-3;
+}
+
+.btn {
+  @apply rounded-full font-semibold px-3 py-1 cursor-pointer text-cardColor bg-contaColor border-x-2 border-cardColor hover:bg-hoverColor hover:text-white transition ease-out duration-300 tracking-tighter;
+}
+
+.svg {
+  @apply w-3 h-3 transform hover:rotate-180 transition ease-out duration-300;
+}
